@@ -1,0 +1,588 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+* ::-webkit-scrollbar{
+    color: transparent;
+}
+
+body{
+    background-color: #D2D4F5;
+    width: 1440px;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body .every{
+    background-color: #FCFBFF;
+    width: 92%;
+    margin: 1rem auto;
+    box-shadow: 0px 6.22128px 18.6638px rgba(24, 28, 102, 0.1);
+    border-radius: 24.8851px;
+}
+
+nav{
+    display: flex;
+    /* justify-content: space-between; */
+    /* padding: 1rem 1rem 0 1rem; */
+    background-color:transparent ;
+    position: sticky;
+    gap: 46.4%;
+}
+
+body .logo{
+    width: 200px;
+    /* margin-bottom: 2.5rem; */
+    background-color: #F7F7FC;
+    padding: 1rem 11.75rem 0 2rem;
+    border-radius: 24.8851px 0 0 0;
+ }
+
+body  .up{
+    border-radius: 0 24.8851px 0 0 ;
+    background-color: #f7f7f7;
+    padding: 0 1.2rem 0 1.25rem;
+}
+
+body  .top{
+    display: flex;
+    /* justify-content: space-between; */
+    position: sticky;
+    gap: 13rem;
+    background-color: #FFFFFF;
+    padding: 1rem 1.8rem .7rem .5rem;
+}
+
+body  .top .user{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+}
+
+body .bg{
+    
+    display: flex;
+    height: 95vh;
+}
+
+body .bg .left{
+    flex: 1 1 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 16px;
+    background-color: #F7F7FC;
+    padding: 2rem;
+    border-radius: 0 0 0 24.8851px;
+}
+
+
+
+
+
+.all .bar{
+    position: absolute;
+    left: 4%;
+    top: 15%;
+}
+body .bg .left .links{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+   
+}
+
+body .bg .left .links a{
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    text-decoration: none;
+    color: #B8BED9;;
+}
+
+body .bg .left .links a.active{
+    background-color: #181C66;
+    border-radius: 9.33192px;
+    padding: .7rem 2.5rem .7rem .5rem ;
+    color: #F0F2F9;
+    margin-left: -.7rem;
+}
+
+body .bg .left .status{
+    display: flex;
+    gap: .7rem;
+    align-items: center;
+    text-decoration: none;
+    color: #FF6964;
+    margin-top: 9rem;
+}
+
+body .center{
+    /* flex: 1 1 20%; */
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    background-color: #FCFBFF;
+    padding: .5rem 1.3rem;
+    width: 530px;
+    
+}
+
+body .center .c-header{
+    background-color: #181C66;
+    border-radius: 14.9311px;
+    color: #FFFFFF;
+    display: flex;
+    width: 100%;
+   
+    
+}
+
+body .center .c-header .statement{
+    padding: 1.1rem 0 1.45rem 1.6rem;
+}
+
+body .center .c-header .statement h3{
+    font-size: 26px;
+    line-height: 32px;
+   
+}
+
+body .center .c-header .statement a{
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #EAEBFA;
+  border-radius: 9.95405px;
+  color: #181C66;
+  width: fit-content;
+  padding: .7rem;
+  margin-top: 1.7rem;
+}
+
+body .center .c-header .header-img{
+    width: 70%;
+    
+ } 
+
+
+
+body .center .c-portfolio{
+    font-size: 21px;
+    line-height: 18px;
+    color: #3A3A3A;
+    margin-top: 2rem;
+}
+
+body .center .c-portfolio .my-coins{
+    display: flex;
+    overflow-x: scroll;
+    gap: .7rem;
+    margin-top: 1.2rem;
+    width: 100%;
+}
+body .center .c-portfolio .my-coins .coin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15.5532px rgba(64, 98, 255, 0.1);
+    border-radius: 9.95405px;
+    /* justify-content: space-around; */
+    gap: .5rem;
+    padding: .2rem .6rem;
+    margin-bottom: 1.2rem;
+}
+
+body .center .c-portfolio .my-coins .coin .name .acr{
+    font-size: 11px;
+    color: #000000;
+    font-weight: bolder;
+}
+body .center .c-portfolio .my-coins .coin .name span{
+    color: #919EAB;
+    font-weight: 400;
+}
+
+body .center .c-portfolio .my-coins .coin .name .beneath{
+    color: #919EAB;
+    font-weight: 500;
+    font-size: 9px;
+}
+
+body .center .c-portfolio .my-coins .coin .price .current{
+    color: #000000;
+    font-size: 14px;
+ 
+
+}
+
+body .center .c-portfolio .my-coins .coin .price .dip{
+    color: #FF6964;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 9px;
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+body .center .c-portfolio .my-coins .coin .price .rise{
+    color: #6DD64D;
+}
+
+body .center .c-portfolio .chart{
+    width: 100%;
+}
+
+body .center .c-portfolio .chart img{
+    width: 100%;
+}
+
+body .right{
+    flex: 1 1 30%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    background-color: #F7F7FC;
+    border-radius: 0 0 24.8851px 0;
+}
+
+body .right .white{
+    background-color: #FFFFFF;
+    width: 90%;
+    margin: 0 auto;
+    padding:  1.7rem;
+}
+
+
+
+/* body .right .top .user img.drop{
+    width: 4.9px;
+} */
+
+body .right .account{
+    margin-top: 0;
+}
+
+body .right .account h3{
+  /* font-weight: 700; */
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  font-family: 'Nunito';
+  margin-bottom: .7rem;
+  font-weight: bolder;
+}
+
+body .right .account .rel{
+    width: 100%;
+    position: relative;
+}
+/* body .right .account img.rel{
+    width: 100%;
+} */
+
+body .right .account .acc-balance{
+    position: absolute;
+    z-index: 10;
+    top: 32%;
+    left: 77%;
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+body .right .account .acc-balance .change{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .4rem;
+    font-size: 12px;
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16.1753px;
+    margin-top: .7rem;
+    padding: .3rem;
+}
+
+body .right .account .buttons{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: .4rem;
+    margin-bottom: 1.6rem;
+    justify-content: space-between;
+}
+
+body .right .account .buttons a{
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+body .right .account .buttons .deposit{
+    background-color: #181C66;
+    display: flex;
+    padding: .6rem;
+    border-radius: 9.95405px;
+    gap: .4rem;
+    justify-content:center ;
+    align-items: center;
+    width: 45%;
+
+}
+
+body .right .account .buttons .withdraw{
+    background-color: #7C81DC;
+    display: flex;
+    padding: .6rem;
+    border-radius: 9.95405px;
+    gap: .4rem;
+    justify-content:center ;
+    align-items: center;
+    width: 45%;
+
+}
+
+body .right .title{
+    font-size: 20px;
+    color: #000000;
+    font-weight: bolder;
+    margin-bottom: .6rem;
+}
+
+body .right .lists{
+    display: flex;
+    flex-direction: column;
+    /* padding-bottom: 1.6rem; */
+    font-size: 13px;
+    color: #000000;
+}
+
+body .right .lists .transaction{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body .right .lists .transaction .t-name{
+    display: flex;
+    align-items: center;
+}
+
+body .right .lists .transaction .t-beneath{
+    font-size: 11px;
+    color: #919EAB;
+}
+
+body .right .lists .transaction .p-rise{
+    color: #6DD64D;
+}
+
+body .right .lists .transaction .p-dip{
+    color: #FF6964;
+}
+
+
+
+/*  media queries */
+
+@media(max-width:1024px){
+
+    nav {
+       
+        gap: 40.4%;
+    }
+
+    body .logo {
+        padding: 1rem 11.1rem 0 2rem;
+       
+    }
+
+    body .up {
+        border-radius: 0 24.8851px 0 0;
+        background-color: #f7f7f7;
+        padding: 0 1.12rem 0 1.1rem;
+    }
+
+    body .top {
+        display: flex;
+        /* justify-content: space-between; */
+        position: sticky;
+        gap: 10.7rem;
+        background-color: #FFFFFF;
+        padding: 1rem 1.8rem .7rem .5rem;
+    }
+
+    body .bg .left {
+        padding: 1.5rem;
+        
+    }
+
+   body .bg .left .status {
+    margin-top: 14rem;
+   }
+
+   body .center {
+    width: 380px;
+    }
+   body .center .c-header{
+      flex-flow: row wrap;
+      justify-content: center;
+   }
+
+   body .right .account .acc-balance {
+    top: 24%;
+    left: 75%;
+  
+}
+
+.all .bar {
+    left: 4%;
+    top: 11%;
+}
+   
+body .center .c-header .statement {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+  
+}
+
+body .right .lists {
+    padding-bottom: 10.6rem;
+    
+}
+
+}
+
+@media(max-width:768px){
+    
+    body .up {
+       
+        background-color: transparent;
+   
+    }
+
+    body .top {
+       
+       gap: 4rem;
+        background-color: transparent;
+       
+    }
+
+    nav {
+        gap: 35.95%;
+    }
+
+    body .logo {
+        padding: 1rem 8rem 0 2rem;
+    }
+
+    .all .bar {
+        left: 4%;
+        top: 14%;
+    }
+
+    body {
+        height: auto;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+
+    body .bg {
+        display: flex;
+        flex-flow: row wrap;
+        height: auto;
+    }
+
+    body .bg .left {
+        max-width: 200px;
+        flex: 1 1 2%;
+        border-radius:  0;
+    }
+
+    body .center {
+        width: 506px;
+        border-radius: 0 24.8851px 0 0;
+    }
+    body .right .account .acc-balance {
+        top: 165%;
+        left: 40%;
+        font-size: 28px;
+    }
+
+    body .right .account .acc-balance .change {
+        font-size: 16px;
+    }
+
+    body .right {
+        border-radius:  0 0 24.8851px 24.8851px ;
+    }
+
+    body .center .c-header .header-img {
+        width: 50%;
+    }
+}
+
+
+@media(max-width:425px){
+    
+    nav {
+        gap: 0;
+        background-color: #f7f7fc;
+        border-radius: 24.8851px 24.8851px 0 0;
+}
+    
+
+    body .top{
+        padding: 0;
+    }
+    body .up{
+        padding: .8rem;
+    }
+
+    body .bg .left  {
+       display: none;
+    }
+
+    body .center {
+        width: 100%;
+    }
+
+    body .center .c-header .statement{
+        padding-right: 1rem;
+    }
+
+    body .right .account .acc-balance {
+        top: 145%;
+        left: 35%;
+        font-size: 26px;
+    }
+    body .right .account .acc-balance .change {
+        font-size: 15px;
+    }
+
+    body .logo {
+        padding: 1rem 1rem 0 2rem;
+    }
+
+    body .top {
+        gap: 3rem;
+        background-color: transparent;
+    }
+
+    body .bg {
+       padding-top: 1.5rem;
+    }
+
+}
